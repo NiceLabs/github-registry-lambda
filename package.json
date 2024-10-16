@@ -1,0 +1,18 @@
+{
+  "name": "@nicelabs/npm-registry-lambda",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsx ./scripts/build.ts"
+  },
+  "devDependencies": {
+    "@npm/types": "^2.0.0",
+    "@types/adm-zip": "~0.5.5",
+    "@types/aws-lambda": "^8.10.145",
+    "@types/node": "^22.7.5",
+    "adm-zip": "^0.5.16",
+    "esbuild": "^0.24.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
